@@ -64,16 +64,17 @@ a:hover {
 }
 
 header {
+  text-align: center;
   padding-top: 35px;
   padding-bottom: 25px;
 }
 
 header h1 {
-  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 48px; font-weight: 900;
+  font-size: 80px; font-weight: 900;
   line-height: 1.2;
   color: #303030;
   letter-spacing: -1px;
+  margin: 50px auto;
 }
 
 header h2 {
@@ -311,10 +312,11 @@ dl dt {
 }
 
 footer {
+  text-align: center;
   padding-top: 20px;
   padding-bottom: 30px;
   margin-top: 40px;
-  font-size: 13px;
+  font-size: 12px;
   color: #aaa;
   background: transparent url('../images/hr.png') 0 0 no-repeat;
 }
